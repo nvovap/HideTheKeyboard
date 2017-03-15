@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3247B9FD1E796908000626FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B9FC1E796908000626FC /* AppDelegate.swift */; };
+		3247B9FF1E796908000626FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B9FE1E796908000626FC /* ViewController.swift */; };
+		3247BA021E796909000626FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3247BA001E796909000626FC /* Main.storyboard */; };
+		3247BA041E79690A000626FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3247BA031E79690A000626FC /* Assets.xcassets */; };
+		3247BA071E79690A000626FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3247BA051E79690A000626FC /* LaunchScreen.storyboard */; };
+		8D7C645D4659AD8E58B43E08 /* Pods_HideTheKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DC8E9549ED199A8FD4F379 /* Pods_HideTheKeyboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F1A37013E8B9DA3BD8BEC2 /* Pods-HideTheKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideTheKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-HideTheKeyboard/Pods-HideTheKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		13DC8E9549ED199A8FD4F379 /* Pods_HideTheKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HideTheKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3247B9F91E796907000626FC /* HideTheKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideTheKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3247B9FC1E796908000626FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3247B9FE1E796908000626FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3247BA011E796909000626FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3247BA031E79690A000626FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3247BA061E79690A000626FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3247BA081E79690A000626FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37936150345AAD8E54F009B1 /* Pods-HideTheKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HideTheKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HideTheKeyboard/Pods-HideTheKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3247B9F61E796902000626FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7C645D4659AD8E58B43E08 /* Pods_HideTheKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092C565FCD7771B5B465063D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13DC8E9549ED199A8FD4F379 /* Pods_HideTheKeyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BEE6E1DC0D44354C60E2F73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37936150345AAD8E54F009B1 /* Pods-HideTheKeyboard.debug.xcconfig */,
+				00F1A37013E8B9DA3BD8BEC2 /* Pods-HideTheKeyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3247B9F01E796902000626FC = {
+			isa = PBXGroup;
+			children = (
+				3247B9FB1E796908000626FC /* HideTheKeyboard */,
+				3247B9FA1E796907000626FC /* Products */,
+				2BEE6E1DC0D44354C60E2F73 /* Pods */,
+				092C565FCD7771B5B465063D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3247B9FA1E796907000626FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3247B9F91E796907000626FC /* HideTheKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3247B9FB1E796908000626FC /* HideTheKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3247B9FC1E796908000626FC /* AppDelegate.swift */,
+				3247B9FE1E796908000626FC /* ViewController.swift */,
+				3247BA001E796909000626FC /* Main.storyboard */,
+				3247BA031E79690A000626FC /* Assets.xcassets */,
+				3247BA051E79690A000626FC /* LaunchScreen.storyboard */,
+				3247BA081E79690A000626FC /* Info.plist */,
+			);
+			path = HideTheKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3247B9F81E796902000626FC /* HideTheKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3247BA0B1E79690A000626FC /* Build configuration list for PBXNativeTarget "HideTheKeyboard" */;
+			buildPhases = (
+				EF4E1EFEFD233B18DD86134C /* [CP] Check Pods Manifest.lock */,
+				3247B9F51E796902000626FC /* Sources */,
+				3247B9F61E796902000626FC /* Frameworks */,
+				3247B9F71E796902000626FC /* Resources */,
+				81CC40F27F16B82700E6CF6C /* [CP] Embed Pods Frameworks */,
+				A154966BE5359CF1402BEE9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideTheKeyboard;
+			productName = HideTheKeyboard;
+			productReference = 3247B9F91E796907000626FC /* HideTheKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3247B9F11E796902000626FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vladimir Nevinniy";
+				TargetAttributes = {
+					3247B9F81E796902000626FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML92WQMC99;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3247B9F41E796902000626FC /* Build configuration list for PBXProject "HideTheKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3247B9F01E796902000626FC;
+			productRefGroup = 3247B9FA1E796907000626FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3247B9F81E796902000626FC /* HideTheKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3247B9F71E796902000626FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3247BA071E79690A000626FC /* LaunchScreen.storyboard in Resources */,
+				3247BA041E79690A000626FC /* Assets.xcassets in Resources */,
+				3247BA021E796909000626FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81CC40F27F16B82700E6CF6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HideTheKeyboard/Pods-HideTheKeyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A154966BE5359CF1402BEE9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HideTheKeyboard/Pods-HideTheKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF4E1EFEFD233B18DD86134C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3247B9F51E796902000626FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3247B9FF1E796908000626FC /* ViewController.swift in Sources */,
+				3247B9FD1E796908000626FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3247BA001E796909000626FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3247BA011E796909000626FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3247BA051E79690A000626FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3247BA061E79690A000626FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3247BA091E79690A000626FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3247BA0A1E79690A000626FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3247BA0C1E79690A000626FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37936150345AAD8E54F009B1 /* Pods-HideTheKeyboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ML92WQMC99;
+				INFOPLIST_FILE = HideTheKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvovap.HideTheKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3247BA0D1E79690A000626FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F1A37013E8B9DA3BD8BEC2 /* Pods-HideTheKeyboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ML92WQMC99;
+				INFOPLIST_FILE = HideTheKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvovap.HideTheKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3247B9F41E796902000626FC /* Build configuration list for PBXProject "HideTheKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3247BA091E79690A000626FC /* Debug */,
+				3247BA0A1E79690A000626FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3247BA0B1E79690A000626FC /* Build configuration list for PBXNativeTarget "HideTheKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3247BA0C1E79690A000626FC /* Debug */,
+				3247BA0D1E79690A000626FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3247B9F11E796902000626FC /* Project object */;
+}
